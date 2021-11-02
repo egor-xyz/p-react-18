@@ -11,4 +11,4 @@ const Rotate = styled.h2`
   animation: ${rotate} 3s linear infinite;
 `;
 
-export const Sample = () => <Rotate>Q&A</Rotate>;
+export const Sample = () => <Rotate>Thank you!</Rotate>;
