@@ -1,8 +1,16 @@
 <!-- classes: title -->
+<!-- section-title: New in ⚡️ React 18 ⚡️ -->
 # New in ⚡️ React 18 ⚡️
 
 ---
+## Contents
+
+<!-- contents -->
+
+---
+
 <!-- classes: title -->
+<!-- section-title: The New Root API -->
 ## The New Root API
 
 
@@ -21,6 +29,7 @@ root.render(<App />);
 
 ---
 <!-- classes: title -->
+<!-- section-title: Automatic Batching -->
 ## Automatic Batching
 
 ```ts
@@ -37,6 +46,7 @@ root.render(<App />);
 
 ---
 <!-- classes: title -->
+<!-- section-title: startTransition API -->
 ## startTransition API
 
 ### React 17
@@ -55,6 +65,7 @@ startTransition(() => {
 
 ---
 <!-- classes: title -->
+<!-- section-title: useDeferredValue -->
 ## useDeferredValue
 
 Goodbye lodash debounce ❤️
@@ -69,10 +80,12 @@ const deferredValue = useDeferredValue(value, { timeoutMs: 2000 });
 
 ---
 <!-- classes: title -->
+<!-- section-title: All ES2022 features in one slide -->
 # All ES2022 features in one slide
 
 ---
 <!-- classes: title -->
+<!-- section-title: Top-level await -->
 ## Top-level await
 
 ```js
@@ -86,6 +99,7 @@ try {
 
 ---
 <!-- classes: title -->
+<!-- section-title: at() -->
 ## at() - new way to work with arrays
 
 ```js
@@ -102,6 +116,7 @@ arr.at(-1); // Clear code !
 
 ---
 <!-- classes: title -->
+<!-- section-title: Object.hasOwn() -->
 ## Object.hasOwn()
 
 ```js
@@ -115,6 +130,7 @@ Object.hasOwn(student,'grade'); // false
 
 ---
 <!-- classes: title -->
+<!-- section-title: Class Fields -->
 ### Class Fields / **#** - private fields
 
 ```js
@@ -127,6 +143,9 @@ class ButtonToggle extends HTMLElement {
 }
 ```
 
+---
+<!-- classes: title -->
+<!-- section-title: Private methods -->
 ### Private methods and getter/setters for JavaScript classes
 
 ```js
@@ -143,6 +162,7 @@ class ButtonToggle extends HTMLElement {
 ```
 ---
 <!-- classes: title -->
+<!-- section-title: Class Static Block -->
 ### Class Static Block
 
 ```js
