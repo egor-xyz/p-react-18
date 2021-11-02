@@ -1,0 +1,20 @@
+meta:
+  url: "https://egor-xyz.github.io/p-react-18"
+  title: React 18 features
+  siteName: React 18
+slide:
+  # loop: true
+  # targetBlank: true
+  ui:
+    sidebar: true
+    # vertical: true
+    pagination: bullets # bullets | progressbar | fraction
+    effect: cube # fade | cube | flip
+  code:
+    languages:
+      - javascript
+      - typesctipt
+      - html
+    plugins:
+      - line-numbers
+    theme: default

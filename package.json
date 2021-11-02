@@ -1,0 +1,19 @@
+{
+  "name": "p-react-18",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "egor-xyz.github.io/p-react-18",
+  "scripts": {
+    "start": "npx fusuma start",
+    "start:prod": "npx fusuma start-prod",
+    "build": "npx fusuma build",
+    "deploy": "npx fusuma deploy",
+    "pdf": "npx fusuma pdf"
+  },
+  "author": "Egor Stronhin",
+  "devDependencies": {
+    "fusuma": "^2.8.4",
+    "styled-components": "^5.3.3"
+  }
+}
